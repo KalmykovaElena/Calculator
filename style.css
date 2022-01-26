@@ -1,0 +1,68 @@
+.wraper{
+    margin: auto;
+    width:475px;
+    height:770px;
+    background: rgb(99, 160, 240);
+    border-radius: 2%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+.wrap-content{
+    width: 90%;
+    height: 95%;
+    margin:  auto;
+}
+input{
+    background: black;
+    width: 100%;
+    height: 10%;
+    color:white;
+    font-size:50px;
+    text-align: right;
+    border-radius: 5%;
+}
+.main-buttons{
+    max-width: 75%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.sign-buttons{
+    max-width: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+.sign-buttons button:last-child{
+    height:33.5%;
+}
+.wrap-buttons{
+    display: flex;
+    height: 95%;
+    box-sizing: border-box;
+    padding-top: 5%;
+}
+button{
+    width: 85px;
+    height:88px ;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 18%;
+}
+#nul{
+    width:64%;
+}
+.main-buttons button:hover{
+    background-color:rgb(250, 33, 123);
+    box-shadow:0px 4px #4d1313;
+    color: white;
+}
+.main-buttons button:nth-child(-n+3):hover{
+    background-color:rgb(21, 223, 65);
+}
+.sign-buttons button:hover{
+    background-color:yellow;
+    box-shadow:0px 4px orangered;
+    color:red;
