@@ -10,32 +10,33 @@
 <body>
     <div class="wraper">
         <div class="wrap-content">
-            <form action=""><input type="number" placeholder="0"></form>
+            <form action=""><input type="text" class = "display"  disabled placeholder="0" maxlength="4"></form>
             <div class="wrap-buttons">
                 <div class="main-buttons">
-                    <button type="button">CE</button>
-                    <button type="button">C</button>
-                    <button type="button">/</button>
-                    <button type="button">1</button>
-                    <button type="button">2</button>
-                    <button type="button">3</button>
-                    <button type="button">4</button>
-                    <button type="button">5</button>
-                    <button type="button">6</button>
-                    <button type="button">7</button>
-                    <button type="button">8</button>
-                    <button type="button">9</button>
-                    <button type="button" id="nul">0</button>
-                    <button type="button">,</button>
+                    <button type="button" class="clear">CE</button>
+                    <button type="button" class="clear">C</button>
+                    <button type="button" class="operators">/</button>
+                    <button type="button" class="number">1</button>
+                    <button type="button" class="number">2</button>
+                    <button type="button" class="number">3</button>
+                    <button type="button" class="number">4</button>
+                    <button type="button" class="number">5</button>
+                    <button type="button" class="number">6</button>
+                    <button type="button" class="number">7</button>
+                    <button type="button" class="number">8</button>
+                    <button type="button" class="number">9</button>
+                    <button type="button" class="number" id="nul">0</button>
+                    <button type="button" class="decimal">,</button>
                 </div>
                 <div class="sign-buttons">
-                    <button type="button">*</button>
-                    <button type="button">-</button>
-                    <button type="button">+</button>
-                    <button type="button">=</button>
+                    <button type="button" class="operators">*</button>
+                    <button type="button" class="operators">-</button>
+                    <button type="button" class="operators">+</button>
+                    <button type="button" class="result">=</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
